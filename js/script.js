@@ -48,21 +48,3 @@ getJSONData(DATA_URL).then(function(resultado){
         }
     });
 
-
-
-
-
-/*fetch(DATA_URL)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error("Error al cargar los datos");
-    }
-    return response.json();
-  })
-  .then(data => {
-    const students = data.students; // Accede al array de estudiantes
-    showData(students); // Pasa el array de estudiantes a la función showData
-  })
-  .catch(error => {
-    console.error("Hubo un problema con el fetch:", error);
-  });*/
