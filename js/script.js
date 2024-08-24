@@ -47,4 +47,3 @@ getJSONData(DATA_URL).then(function(resultado){
           showData(students); 
         }
     });
-
